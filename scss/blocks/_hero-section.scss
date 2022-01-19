@@ -1,0 +1,168 @@
+// hero-section
+
+.hero{
+    margin-bottom: 170px;
+}
+
+.hero__box{
+    background-image: url(../images/Bitmap.jpg);
+    background-repeat: no-repeat;
+    padding: 137px 0px 137px 85px;
+    border-radius: 10px;
+}
+
+
+.hero__title{
+    font-family: Fraunces;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+
+
+
+    
+.hero__description{
+    width: 445px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}
+
+
+
+
+
+@media only screen and (max-width:950px){
+    .hero__box{
+        background-position: calc(50% + 160px) top;
+        padding: 137px 0px 137px 85px;
+    }
+}
+    
+
+@media only screen and (max-width:900px){
+    .hero__box{
+        background-position: calc(50% + 160px) top;
+        padding: 137px 0px 137px 85px;
+    }
+}
+    
+
+
+@media only screen and (max-width:850px){
+    .hero__box{
+        background-position: calc(50% + 120px) top;
+        padding: 137px 0px 137px 85px;
+    }
+}
+        
+@media only screen and (max-width:770px){
+    .hero__box{
+        background-position: calc(50% + 80px) top;
+        padding: 137px 0px 137px 85px;
+    }
+}
+    
+@media only screen and (max-width:674px){
+    .hero__box{
+        background-position: calc(50% + 50px) top;
+        padding: 137px 0px 137px 85px;
+    }
+}
+    
+
+
+@media only screen and (max-width:640px){
+    .hero__box{
+        background-position: calc(50% + 30px) top;
+        padding: 137px 0px 137px 85px;
+    }
+}
+    
+
+@media only screen and (max-width:550px){
+    .hero__box{
+        background-position: calc(50% + 30px) top;
+        padding: 137px 0px 137px 85px;
+    }
+
+    .hero__description{
+        max-width: 390px;
+        
+    }
+}
+
+@media only screen and (max-width:508px){
+    .hero__box{
+        background-position: calc(50% + 20px) top;
+        padding: 137px 0px 137px 85px;
+    }
+
+    .hero__description{
+        max-width: 350px;
+    }
+}
+   
+
+@media only screen and (max-width:468px){
+    .hero__box{
+        background-position: calc(50% + 30px) top;
+        padding: 137px 0px 137px 85px;
+    }
+
+    .hero__description{
+        max-width: 300px;
+    }
+}
+
+   
+
+
+@media only screen and (max-width:414px){
+    .hero__box{
+        background-position: calc(50% + 30px) top;
+        padding: 137px 0px 137px 85px;
+    }
+
+    .hero__description{
+        max-width: 250px;
+    }
+}
+
+
+
+
+@media only screen and (max-width:382px){
+    .hero__box{
+        background-position: calc(50% + 30px) top;
+        padding: 137px 0px 137px 85px;
+    }
+
+    .hero__description{
+        max-width: 200px;
+    }
+}
+
+
+@media only screen and (max-width:325px){
+    .hero__box{
+        background-position: calc(50% + 30px) top;
+        padding: 137px 0px 137px 85px;
+    }
+
+    .hero__title{
+        max-width: 50px;
+    }
+
+    .hero__description{
+        max-width: 150px;
+    }
+}
+
+
